@@ -7,13 +7,12 @@ let userId;
 console.log("call index.js")
 console.log(window)
 
-// import { stopwatches } from ".stopwatches/index"
 
 function startTimer() {
   intervalId = setInterval(updateTimer, 1000);
 }
 
-window.startTimer = startTimer()
+window.startTimer = startTimer
 
 function stopTimer() {
   clearInterval(intervalId);
@@ -69,7 +68,7 @@ function onClickPost() {
 window.onClickPost = onClickPost
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  // document.getElementById("startTimer").addEventListener("click", startTimer);
+  document.getElementById("startTimer").addEventListener("click", startTimer);
   document.getElementById("stopTimer").addEventListener("click", stopTimer);
   document.getElementById("resetTimer").addEventListener("click", resetTimer);
   document.getElementById("saveTimer").addEventListener("click", saveTimerDataToDB);
