@@ -73,18 +73,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById("resetTimer").addEventListener("click", resetTimer);
   document.getElementById("saveTimer").addEventListener("click", saveTimerDataToDB);
 });
-
-// タイマーが停止されたときに呼び出される関数
-function saveTimerDataToDB() {
-  const data = {
-    user_id: userId,
-    hours: hours,
-    minutes: minutes,
-    seconds: seconds
-  }};
-
-// 変数宣言
-
-// 関数宣言
-
-// window オブジェクトに関数を登録する
