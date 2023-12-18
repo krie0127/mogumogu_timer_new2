@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>タイマー</title>
+    <%= csrf_meta_tags %>
+    <script src="/javascripts/bundle.js"></script>
+
+  </head>
+  <body>
+    <h1>タイマー</h1>
+    <p id="timer">00:00:00</p>
+    <button id="startTimer" class="text-blue-500" onclick="startTimer()">スタート</button>
+    <button id="stopTimer" onclick="stopTimer()">ストップ</button>
+    <button id="resetTimer" onclick="resetTimer()">リセット</button>
+    <button id="saveTimer" onclick="onClickPost()">登録</button>
+    
+    <div id="user-info" data-user-id="ユーザーのID"></div>
+    <div id="beat-info" data-beat-id="ビートのID"></div>
+
+    <script>
+      console.log("hello")
+        const url = "https://jsonplaceholder.typicode.com/posts"
+        const getPosts = async () => {
+          const res = await fetch(url)
+          const data = await res.json()
+          await console.log(data)
+      }
+    </script>
+  </body>
+</html>
+
