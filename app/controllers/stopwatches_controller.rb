@@ -40,7 +40,7 @@ class StopwatchesController < ApplicationController
     end
   
     def stopwatch_params
-      params.require(:stopwatch).permit(:hours, :minutes, :seconds) 
+      params.require(:stopwatch).permit(:duration, :start_time, :end_time) 
     end
   end
   

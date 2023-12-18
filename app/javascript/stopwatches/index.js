@@ -7,13 +7,12 @@ let userId;
 console.log("call index.js")
 console.log(window)
 
-// import { stopwatches } from ".stopwatches/index"
 
 function startTimer() {
   intervalId = setInterval(updateTimer, 1000);
 }
 
-window.startTimer = startTimer()
+window.startTimer = startTimer
 
 function stopTimer() {
   clearInterval(intervalId);
@@ -69,23 +68,8 @@ function onClickPost() {
 window.onClickPost = onClickPost
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  // document.getElementById("startTimer").addEventListener("click", startTimer);
+  document.getElementById("startTimer").addEventListener("click", startTimer);
   document.getElementById("stopTimer").addEventListener("click", stopTimer);
   document.getElementById("resetTimer").addEventListener("click", resetTimer);
   document.getElementById("saveTimer").addEventListener("click", saveTimerDataToDB);
 });
-
-// タイマーが停止されたときに呼び出される関数
-function saveTimerDataToDB() {
-  const data = {
-    user_id: userId,
-    hours: hours,
-    minutes: minutes,
-    seconds: seconds
-  }};
-
-// 変数宣言
-
-// 関数宣言
-
-// window オブジェクトに関数を登録する
