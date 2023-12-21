@@ -1,0 +1,16 @@
+current directory: /Users/rie/mogumogu_timer_new/vendor/bundle/ruby/3.2.0/gems/json-2.7.1/ext/json
+/Users/rie/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/rie/mogumogu_timer_new/vendor/bundle/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231222-9609-fwdwcg sitelibdir\=./.gem.20231222-9609-fwdwcg clean
+
+current directory: /Users/rie/mogumogu_timer_new/vendor/bundle/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231222-9609-fwdwcg sitelibdir\=./.gem.20231222-9609-fwdwcg
+make: Nothing to be done for `all'.
+
+current directory: /Users/rie/mogumogu_timer_new/vendor/bundle/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231222-9609-fwdwcg sitelibdir\=./.gem.20231222-9609-fwdwcg install
+
+current directory: /Users/rie/mogumogu_timer_new/vendor/bundle/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231222-9609-fwdwcg sitelibdir\=./.gem.20231222-9609-fwdwcg clean
